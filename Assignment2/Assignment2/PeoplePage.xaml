@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Assignment2.PeoplePage">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="StartAndExpand" HorizontalOptions="Start" Orientation="Vertical">
+           
+                <Grid Margin="0" Padding="0" RowSpacing="5" BackgroundColor="#FFFFFF">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="160"/>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="160" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="160" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="160" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="160" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="160" />
+                        <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                <Image Source="aarslan2.jpg" VerticalOptions="Start" Aspect="AspectFit" Grid.Column="0" Grid.Row="0"></Image>
+                <Frame VerticalOptions="Fill"  Grid.Column="1" Grid.Row="0" Padding="0" Margin="0" >
+                     <StackLayout VerticalOptions="Start"  Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Dr.Öğr. Üyesi Ahmet ARSLAN"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: aarslan2@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6553" x:Name="_1" ></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="1" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+                <Image Source="yhoscan.jpg" VerticalOptions="Start" Aspect="AspectFit" Grid.Column="2" Grid.Row="0" ></Image>
+                <Frame VerticalOptions="Fill"  Grid.Column="3" Grid.Row="0" Padding="0" Margin="0" >
+                    <StackLayout VerticalOptions="Start"  Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Prof.Dr. Yaşar HOŞCAN"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: hoscan@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6558" x:Name="_2"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="2" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+
+                <Image Source="serkangunal.jpg" VerticalOptions="Start" Grid.Column="0" Grid.Row="2" ></Image>
+                <Frame  VerticalOptions="Fill" Grid.Column="1" Grid.Row="2" Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start"  Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Prof.Dr. Serkan GÜNAL"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: serkangunal@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6562" x:Name="_3"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="3" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+                <Image Source="ckaleli.jpg" VerticalOptions="Start" Grid.Column="2" Grid.Row="2"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="3" Grid.Row="2" Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start"  Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Assoc.Prof.Dr. Cihan KALELİ"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: ckaleli@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6555" x:Name="_4"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="4" BackgroundColor="#0F1C62" TextColor="White"></Button>
+                    
+                <Image Source="akuysal.jpg" VerticalOptions="Start" Grid.Column="0" Grid.Row="4"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="1" Grid.Row="4" Padding="0" Margin="0">
+                     <StackLayout VerticalOptions="Start"  Spacing="0">
+                            <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Assoc.Prof.Dr. Alper Kürşat UYSAL"></Label>
+                            <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: akuysal@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6556" x:Name="_5"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="5" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+                <Image Source="abilge.jpg" VerticalOptions="Start" Grid.Column="2" Grid.Row="4"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="3" Grid.Row="4" Padding="0" Margin="0">
+                        <StackLayout VerticalOptions="Start"  Spacing="0">
+                            <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Assoc.Prof.Dr. Alper BİLGE"></Label>
+                            <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: abilge@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6578" x:Name="_6"></Label>
+                        </StackLayout>
+                    </Frame>
+                <Button Text="CALL" Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="6" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+                <Image Source="sevcany.jpg" VerticalOptions="Start" Grid.Column="0" Grid.Row="6"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="1" Grid.Row="6"  Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start" Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Dr.Öğr. Üyesi Sevcan YILMAZ GÜNDÜZ"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: sevcany@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6554" x:Name="_7"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="7" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+                <Image Source="byurekli.jpg" VerticalOptions="Start" Grid.Column="2" Grid.Row="6"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="3" Grid.Row="6"  Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start" Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Dr.Öğr. Üyesi Burcu YÜREKLİ YILMAZEL"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="E-Mail: byurekli@eskisehir.edu.tr"></Label>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Tel: 6566" x:Name="_8"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="2" Grid.Row="7" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="8" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+
+                <Image Source="cahitperkgoz.jpg" VerticalOptions="Start" Grid.Column="0" Grid.Row="8"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="1" Grid.Row="8" Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start" Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" Text="Dr.Öğr. Üyesi Cahit PERKGÖZ" FontSize="Small"></Label>
+                        <Label VerticalOptions="StartAndExpand" Text="E-Mail: cahitperkgoz@eskisehir.edu.tr" FontSize="Small"></Label>
+                        <Label  VerticalOptions="StartAndExpand" Text="Tel: 6552" FontSize="Small" x:Name="_9"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="2" Clicked="OnClickedCall"  StyleId="9" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+                <Image  Source="mkilicarslan.jpg" VerticalOptions="Start" Grid.Column="2" Grid.Row="8"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="3" Grid.Row="8"  Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start" Spacing="0">
+                        <Label  VerticalOptions="StartAndExpand" Text="Lect.Dr. Mehmet KILIÇARSLAN" FontSize="Small"></Label>
+                        <Label VerticalOptions="StartAndExpand" Text="E-Mail: mkilicarslan@eskisehir.edu.tr" FontSize="Small"></Label>
+                        <Label VerticalOptions="StartAndExpand" Text="Tel: 6564" FontSize="Small" x:Name="_10"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="2" Grid.Row="9" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="10" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+
+                <Image Source="oozsen.jpg" VerticalOptions="Start" Grid.Column="0" Grid.Row="10"></Image>
+                <Frame VerticalOptions="Fill" Grid.Column="1" Grid.Row="10"  Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start" Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" Text="Lect. Özgür ÖZŞEN" FontSize="Small"></Label>
+                        <Label VerticalOptions="StartAndExpand" Text="E-Mail: oozsen@eskisehir.edu.tr" FontSize="Small"></Label>
+                        <Label VerticalOptions="StartAndExpand" Text="Tel: 6557" FontSize="Small" x:Name="_11"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="11" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+                <Image Source="ekacmaz.jpg" VerticalOptions="Start" Grid.Column="2" Grid.Row="10"></Image>
+                <Frame VerticalOptions="Fill"  Grid.Column="3" Grid.Row="10" Padding="0" Margin="0">
+                    <StackLayout VerticalOptions="Start" Spacing="0">
+                        <Label VerticalOptions="StartAndExpand" Text="Lect. Emre KAÇMAZ" FontSize="Small"></Label>
+                        <Label VerticalOptions="StartAndExpand" Text="E-Mail: emrekacmaz@eskisehir.edu.tr" FontSize="Small"></Label>
+                        <Label VerticalOptions="StartAndExpand" Text="Tel: 6561" FontSize="Small" x:Name="_12"></Label>
+                    </StackLayout>
+                </Frame>
+                <Button Text="CALL" Grid.Column="2" Grid.Row="11" Grid.ColumnSpan="2" Clicked="OnClickedCall" StyleId="12" BackgroundColor="#0F1C62" TextColor="White"></Button>
+
+
+            </Grid>
+      
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

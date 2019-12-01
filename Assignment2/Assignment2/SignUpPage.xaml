@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Assignment2.SignUpPage">
+    <ContentPage.Content>
+        <Frame BackgroundColor="#1F3441">
+        <StackLayout Padding="10, 20, 10, 20" VerticalOptions="Start">
+            <Label Text="Please enter all fields to sign up"
+                VerticalOptions="Fill" 
+                HorizontalOptions="Fill" 
+                TextColor="White"
+                FontSize="Large"   />
+            <Entry 
+                Placeholder="E-mail Address" 
+                Keyboard="Email" 
+                VerticalOptions="Start" HorizontalOptions="Fill" 
+                x:Name="email"
+                BackgroundColor="White" TextColor="Black">
+                
+            </Entry>
+            <Entry 
+                Placeholder="Password" 
+                IsPassword="True" 
+                VerticalOptions="Start" HorizontalOptions="Fill" 
+                x:Name="password"
+                BackgroundColor="White" TextColor="Black">
+            </Entry>
+            <Entry 
+                Placeholder="Name" 
+                VerticalOptions="Start" HorizontalOptions="Fill" 
+                x:Name="name"
+                BackgroundColor="White" TextColor="Black">
+            </Entry>
+            <Button 
+                Text="Sign Up" 
+                Clicked="OnSignUpClicked"
+                BackgroundColor="#54EB54" TextColor="White"></Button>
+        </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

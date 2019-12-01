@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Assignment2.InfraPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="Class-B1"></Label>
+                    <Label Text="Capacity: 36"></Label>
+                </StackLayout>
+                <ImageButton Source="class_b1_icon.jpg" HorizontalOptions="EndAndExpand" Clicked="OnB1Clicked"></ImageButton>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="Class-B2"></Label>
+                    <Label Text="Capacity: 15"></Label>
+                </StackLayout>
+                <ImageButton Source="class_b2_icon.jpg" HorizontalOptions="EndAndExpand" Clicked="OnB2Clicked" ></ImageButton>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="Class-B2"></Label>
+                    <Label Text="Capacity: 18"></Label>
+                </StackLayout>
+                <ImageButton Source="class_b3_icon.jpg" HorizontalOptions="EndAndExpand" Clicked="OnB3Clicked"></ImageButton>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="Class-B4"></Label>
+                    <Label Text="Capacity: 24"></Label>
+                </StackLayout>
+                <ImageButton Source="class_b4_icon.jpg" HorizontalOptions="EndAndExpand" Clicked="OnB4Clicked"></ImageButton>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="Class-B5"></Label>
+                    <Label Text="Capacity: 15"></Label>
+                </StackLayout>
+                <ImageButton Source="class_b5_icon.jpg" HorizontalOptions="EndAndExpand" Clicked="OnB5Clicked"></ImageButton>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="Class-B6"></Label>
+                    <Label Text="Capacity: 24"></Label>
+                </StackLayout>
+                <ImageButton Source="class_b6_icon.jpg" HorizontalOptions="EndAndExpand" Clicked="OnB6Clicked"></ImageButton>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="Class-B7"></Label>
+                    <Label Text="Capacity: 54"></Label>
+                </StackLayout>
+                <ImageButton Source="class_b7_icon.jpg" HorizontalOptions="EndAndExpand" Clicked="OnB7Clicked"></ImageButton>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
